@@ -15,10 +15,10 @@ greeting()
 #Ethan Blow
 #2.14.19
 
-x = 2345678954345678954
+x = 11
 
 def print_something():
-    x = 1
+    x = 13
     print (x)
 
 print_something()
