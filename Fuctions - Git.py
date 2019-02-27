@@ -48,3 +48,17 @@ def print_number(x):
 
 print_number(12)
 print_number('\n' + "Hi")
+
+
+#4.14.4: Name and Age
+#Ethan Blow
+#2.18.19
+
+def name_and_age(name, age):
+    print('Hi, my name is, What? My name is, Who? my name is ',name,' and I am ',str(age),' Years old.')
+
+name_and_age('slica slica slim shady',46)
+name_and_age('Dr. Seuss',22)
+name_and_age('Ethan Blow',14)
+
+
