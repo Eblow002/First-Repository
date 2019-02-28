@@ -62,3 +62,15 @@ name_and_age('Dr. Seuss',22)
 name_and_age('Ethan Blow',14)
 
 
+# 4.14.5: Default Parameter Values
+# Ethan Blow
+# 2.19.19
+
+def print_2_numbers(x,y = 20):
+    print('First Number: ',x)
+    print('Second Number: ',y)
+
+print_2_numbers(5, 67)
+print_2_numbers(23)
+
+
