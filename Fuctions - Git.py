@@ -85,3 +85,14 @@ def print_multiple_times(string, times):
 print_multiple_times('Whats up my dude',101)
 
 
+# 4.14.7: Print multiple times
+# Ethan Blow
+# 2.19.19
+
+def print_multiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_multiple_times('Whats up my dude',101)
+
+
