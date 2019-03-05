@@ -108,6 +108,7 @@ except ValueError:
     print('That was not a integer')
 
 
+<<<<<<< HEAD
 # 4.16.4: Enter name and age
 # Ethan Blow
 #2.20.19
@@ -124,3 +125,24 @@ except ValueError:
 
 print('\n''Name: ',name)
 print('Age: ',age)
+=======
+# 4.16.6: Temprature Converter
+# Ethan Blow
+# 2.20.19
+
+def c_to_f(c):
+    return c * 1.8 + 32
+
+def f_to_c(f):
+    return (f - 32) / 1.8
+
+try:
+    c = float(input('Enter a temp in C: '))
+    print('In F: ',round(c_to_f(c), 2))
+
+    f = float(input('Enter a temp in F: '))
+    print('In C: ',round(f_to_c(f), 2))
+
+except ValueError:
+    print('You must enter a float')
+>>>>>>> Temp-Converter
