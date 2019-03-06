@@ -108,24 +108,6 @@ except ValueError:
     print('That was not a integer')
 
 
-<<<<<<< HEAD
-# 4.16.4: Enter name and age
-# Ethan Blow
-#2.20.19
-
-name = input('What is your name: ')
-
-age = -1
-
-try:
-    age = int(input('Enter your age: '))
-
-except ValueError:
-    print('Pretty sure that was not a number')
-
-print('\n''Name: ',name)
-print('Age: ',age)
-=======
 # 4.16.6: Temprature Converter
 # Ethan Blow
 # 2.20.19
@@ -146,3 +128,22 @@ try:
 except ValueError:
     print('You must enter a float')
 >>>>>>> Temp-Converter
+
+
+
+# 4.16.7: Enter a positive number
+# Ethan Blow
+# 2.21.19
+
+def retrieve_positive_number():
+    while True:
+        try:
+            number = int(input("Enter a positive number"))
+            if number > 0:
+                return number
+            else:
+                print('That number was not positive')
+        except ValueError:
+            print('That was not a number')
+
+retrieve_positive_number()
